@@ -45,16 +45,16 @@
       "Charizard": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
       "category": "Flame",
-      "height": "' 08",
-      "weight": "19.8"
+      "height": "5' 07",
+      "weight": "199.5"
     },
     {
       "id": 7,
       "Squirtle": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
       "category": "Tiny Turtle",
-      "height": "5' 07",
-      "weight": "199.5"
+      "height": "1' 08",
+      "weight": "19.8"
     },
     {
       "id": 8,
