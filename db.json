@@ -323,7 +323,6 @@
           "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png"
         }
       ]
-      
     },
     {
       "id": 19,
@@ -482,7 +481,6 @@
           "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png"
         }
       ]
-
     },
     {
       "id": 30,
@@ -2192,19 +2190,18 @@
       "evolutions": []
     }
   ],
-  "currentTeam" : {
-      "teamName": " ",
-      "pokemons": [],
-      "ratings": {
-        "1": 0,
-        "2": 0,
-        "3": 0,
-        "4": 0,
-        "5": 0
-      },
-      "averageRating": 0,
-      "favorited": false
+  "currentTeam": {
+    "teamName": "",
+    "pokemons": [],
+    "ratings": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
     },
-    "teams": [
-    ]
+    "averageRating": 0,
+    "favorited": false
+  },
+  "teams": []
 }
