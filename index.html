@@ -19,6 +19,46 @@
                         <input type="text" name="name" placeholder="NAME...">
                         <input type="submit" value="Search">
                     </form>
+                    <div id="current-team-holder">
+                        <!--This div contains the form for submitting a user's team, it will grab info from the sprites-->
+                        <h2>Your Poke-Team</h2>
+                        <div id="current-team">
+                            <div id="team-poke-1">
+                                <h5 id="poke-1-name"></h5>
+                                <img id="poke-1-img"/>
+                                <button class="remove-poke">x</button>
+                            </div>
+                            <div id="team-poke-2">
+                                <h5 id="poke-2-name"></h5>
+                                <img id="poke-2-img"/>
+                                <button class="remove-poke">x</button>
+                            </div>
+                            <div id="team-poke-3">
+                                <h5 id="poke-3-name"></h5>
+                                <img id="poke-3-img"/>
+                                <button class="remove-poke">x</button>
+                            </div>
+                            <div id="team-poke-4">
+                                <h5 id="poke-4-name"></h5>
+                                <img id="poke-4-img"/>
+                                <button class="remove-poke">x</button>
+                            </div>
+                            <div id="team-poke-5">
+                                <h5 id="poke-5-name"></h5>
+                                <img id="poke-5-img"/>
+                                <button class="remove-poke">x</button>
+                            </div>
+                            <div id="team-poke-6">
+                                <h5 id="poke-6-name"></h5>
+                                <img id="poke-6-img"/>
+                                <button class="remove-poke">x</button>
+                            </div>
+                        </div>
+                        <form id="current-team-form">
+                            <input type="text" name="teamInputter" placeholder="Enter your Team's Name">
+                            <input type="submit" value="Store Team">
+                        </form>
+                    </div>
                 </div>
                 <div id="poke-entry">
                     <div id="poke-name">
@@ -73,48 +113,40 @@
             </div>
         </main>
         <footer>
-            <div id="team-section">
-                <div id="team-section-submitter">
-                    <!--This div contains the form for submitting a user's team, it will grab info from the sprites-->
-                    <h2>Enter Your Poke-Team</h2>
-                    <form id="poke-team-form">
-                        <input type="text" name="teamInputter" placeholder="Enter your Team's Name">
-                        <input type="submit" value="Store Team">
-                    </form>
-                </div>
-                <div id="team-section-holder-rater">
+            <div id="retrieved-team-section">
+                <div id="team-holder-rater">
                     <!--This div will contain the cards for the selected team including the sprites and names of the pokemon in the sprites-->
-                    <div id="team-poke-1">
-                        <h5 id="poke-1-name">Bulbasaur</h5>
-                        <img id="poke-1-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"/>
+                    <div id="retrived-team-poke-1">
+                        <h5 id="ret-poke-1-name">Bulbasaur</h5>
+                        <img id="ret-poke-1-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"/>
                         <button class="remove-poke">x</button>
                     </div>
-                    <div id="team-poke-2">
-                        <h5 id="poke-2-name"></h5>
-                        <img id="poke-2-img"/>
+                    <div id="retrieved-team-poke-2">
+                        <h5 id="ret-poke-2-name"></h5>
+                        <img id="ret-poke-2-img"/>
                         <button class="remove-poke">x</button>
                     </div>
-                    <div id="team-poke-3">
-                        <h5 id="poke-3-name"></h5>
-                        <img id="poke-3-img"/>
+                    <div id="retrieved-team-poke-3">
+                        <h5 id="ret-poke-3-name"></h5>
+                        <img id="ret-poke-3-img"/>
                         <button class="remove-poke">x</button>
                     </div>
-                    <div id="team-poke-4">
-                        <h5 id="poke-4-name"></h5>
-                        <img id="poke-4-img"/>
+                    <div id="retrived-team-poke-4">
+                        <h5 id="ret-poke-4-name"></h5>
+                        <img id="ret-poke-4-img"/>
                         <button class="remove-poke">x</button>
                     </div>
-                    <div id="team-poke-5">
-                        <h5 id="poke-5-name"></h5>
-                        <img id="poke-5-img"/>
+                    <div id="retrieved-team-poke-5">
+                        <h5 id="ret-poke-5-name"></h5>
+                        <img id="ret-poke-5-img"/>
                         <button class="remove-poke">x</button>
                     </div>
-                    <div id="team-poke-6">
-                        <h5 id="poke-6-name"></h5>
-                        <img id="poke-6-img"/>
+                    <div id="retrieved-team-poke-6">
+                        <h5 id="ret-poke-6-name"></h5>
+                        <img id="ret-poke-6-img"/>
                         <button class="remove-poke">x</button>
                     </div>
-                    <form>
+                    <form id="rating-form">
                         <label>Give This Team a Rating: </label>
                         <input type="text" name="userReview" placeholder="/5">
                         <input type="submit" value="Submit Review">
