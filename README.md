@@ -44,3 +44,8 @@ INTENDED DB.JSON STRUCTURE FOR TEAM STORAGE:
 
 ### TRELLO
 ![trello-listing](./TrelloBoard.png)
+
+
+<!-- Bruh -->
+<!-- No -->
+<!-- Mod -->
