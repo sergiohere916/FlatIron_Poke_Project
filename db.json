@@ -356,7 +356,7 @@
     {
       "id": 45,
       "Vileplume": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/045.png",
-      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",,
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
       "category": "Flower",
       "height": "3' 11",
       "weight": "41.0"
