@@ -5,11 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Pokemon website</title>
         <script defer src="index.js"></script>
+        <link rel="stylesheet" type="text/css" href="main.css">
     <head>
     <body>
         <header>
-            <h1 id="title">Pokedex</h1>
-            <img id="pokeball-img" src="https://i.ebayimg.com/images/g/x3gAAOSw2vxijnz1/s-l500.jpg">
+            <h1 id="title">Pokedex 2.0</h1>
+            <img id="pokeball-img" src="https://images-ext-2.discordapp.net/external/xLOB9KRyzN8xbWRlYGcCobAEYp77mdIi6GzV6bE0224/https/www.pngarts.com/files/4/Pokeball-PNG-Picture.png?width=548&height=365">
         </header>
         <main>
             <div id="poke-main">
@@ -23,36 +24,7 @@
                         <!--This div contains the form for submitting a user's team, it will grab info from the sprites-->
                         <h2>Your Poke-Team</h2>
                         <div id="current-team">
-                            <div id="team-poke-1">
-                                <h5 id="poke-1-name"></h5>
-                                <img id="poke-1-img"/>
-                                <button class="remove-poke">x</button>
-                            </div>
-                            <div id="team-poke-2">
-                                <h5 id="poke-2-name"></h5>
-                                <img id="poke-2-img"/>
-                                <button class="remove-poke">x</button>
-                            </div>
-                            <div id="team-poke-3">
-                                <h5 id="poke-3-name"></h5>
-                                <img id="poke-3-img"/>
-                                <button class="remove-poke">x</button>
-                            </div>
-                            <div id="team-poke-4">
-                                <h5 id="poke-4-name"></h5>
-                                <img id="poke-4-img"/>
-                                <button class="remove-poke">x</button>
-                            </div>
-                            <div id="team-poke-5">
-                                <h5 id="poke-5-name"></h5>
-                                <img id="poke-5-img"/>
-                                <button class="remove-poke">x</button>
-                            </div>
-                            <div id="team-poke-6">
-                                <h5 id="poke-6-name"></h5>
-                                <img id="poke-6-img"/>
-                                <button class="remove-poke">x</button>
-                            </div>
+
                         </div>
                         <form id="current-team-form">
                             <input type="text" name="teamInputter" placeholder="Enter your Team's Name">
@@ -65,7 +37,7 @@
                         <h1 id="pokemon-name">Pokemon Name</h1>
                     </div>
                     <div id="poke-info">
-                        <h1 id="entry-id">7</h1>
+                        <h1 id="entry-id"></h1>
                         <img id="main-poke-img">
                     </div>
                     <div id="poke-description">
@@ -105,54 +77,44 @@
                 </div>
                 <div id="team-search">
                     <h2 id="team-search-title">Access Your Team</h2>
-                    <form id="team-search-form">
+                    <form id="team-search-form"> 
                         <input type="text" name="grab-team" placeholder="Enter Team Name">
                         <input type="submit" value="Display Team">
+                    </form> 
+                    <form id="all-teams-form">
+                        <input type="submit" name="grab-teams" value="Display All Teams">
                     </form>
                 </div>
             </div>
+            <div id="retrieved-team-section">
+                <form id="rating-form">
+                   <label for="dropdown">Give This Team a Rating: </label>
+                   <select id="dropdown">
+                       <option value="1">1</option>
+                       <option value="2">2</option>
+                       <option value="3">3</option>
+                       <option value="4">4</option>
+                       <option value="5">5</option>
+                   </select>
+                   <!-- <input type="dropdown" name="userReview" placeholder="/5"> -->
+                   <input type="submit" value="Submit Rating">
+                   <link rel="stylesheet" type="text/css" href="main.css">
+               </form>
+               <div id="team-holder-rater">
+                   <!--This div will contain the cards for the selected team including the sprites and names of the pokemon in the sprites-->
+                   
+                   <!--  
+                   <form id="rating-form">
+                       <label>Give This Team a Rating: </label>
+                       <input type="text" name="userReview" placeholder="/5">
+                       <input type="submit" value="Submit Rating">
+                       <link rel="stylesheet" type="text/css" href="main.css">
+                   </form>
+                    -->
+               </div>
+           </div>
         </main>
         <footer>
-            <div id="retrieved-team-section">
-                <div id="team-holder-rater">
-                    <!--This div will contain the cards for the selected team including the sprites and names of the pokemon in the sprites-->
-                    <div id="retrived-team-poke-1">
-                        <h5 id="ret-poke-1-name">Bulbasaur</h5>
-                        <img id="ret-poke-1-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"/>
-                        <button class="remove-poke">x</button>
-                    </div>
-                    <div id="retrieved-team-poke-2">
-                        <h5 id="ret-poke-2-name"></h5>
-                        <img id="ret-poke-2-img"/>
-                        <button class="remove-poke">x</button>
-                    </div>
-                    <div id="retrieved-team-poke-3">
-                        <h5 id="ret-poke-3-name"></h5>
-                        <img id="ret-poke-3-img"/>
-                        <button class="remove-poke">x</button>
-                    </div>
-                    <div id="retrived-team-poke-4">
-                        <h5 id="ret-poke-4-name"></h5>
-                        <img id="ret-poke-4-img"/>
-                        <button class="remove-poke">x</button>
-                    </div>
-                    <div id="retrieved-team-poke-5">
-                        <h5 id="ret-poke-5-name"></h5>
-                        <img id="ret-poke-5-img"/>
-                        <button class="remove-poke">x</button>
-                    </div>
-                    <div id="retrieved-team-poke-6">
-                        <h5 id="ret-poke-6-name"></h5>
-                        <img id="ret-poke-6-img"/>
-                        <button class="remove-poke">x</button>
-                    </div>
-                    <form id="rating-form">
-                        <label>Give This Team a Rating: </label>
-                        <input type="text" name="userReview" placeholder="/5">
-                        <input type="submit" value="Submit Review">
-                    </form>
-                </div>
-            </div>
+            <h5><i>Pokedex web page made by the <strong>SSJ StrawHats</strong></i></h5>
         </footer>
     </body>
-</html>
