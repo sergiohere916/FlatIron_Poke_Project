@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pokemon website</title>
+        <script defer src="index.js"></script>
+    <head>
+    <body>
+        <header>
+            <h1 id="title">Pokedex</h1>
+            <img id="pokeball-img" src="https://i.ebayimg.com/images/g/x3gAAOSw2vxijnz1/s-l500.jpg">
+        </header>
+        <main>
+            <div id="poke-main">
+                <div id="poke-search">
+                    <form id="poke-form">
+                        <label for="name">ENTER POKEMON</label>
+                        <input type="text" name="name" placeholder="NAME...">
+                        <input type="submit" value="Search">
+                    </form>
+                </div>
+                <div id="poke-entry">
+                    <div id="poke-name">
+                        <h1 id="pokemon-name">Pokemon Name</h1>
+                    </div>
+                    <div id="poke-info">
+                        <h1 id="entry-id">7</h1>
+                        <img id="main-poke-img">
+                    </div>
+                    <div id="poke-description">
+                        <p id="description"></p>
+                    </div>
+                    <button id="add-poke">Add to Team</button>
+                </div>
+                <div id="stats">
+                    <div id="types">
+                        <h2 id="type-header">Type</h2>
+                        <span id="type-label"></span>
+                        <h2 id="weakness-header">Weakness</h2>
+                        <span id="weakness-label"></span>
+                    </div>
+                    <div id="moves">
+                        <h2 id="moves-label">Moves</h2>
+                        <ol>
+                            <!-- Pokemon moves go here -->
+                        </ol>
+                    </div>
+                    <!-- Height and weight -->
+                    <div id="height-weight">
+                        <h2 id="height">Height:</h2>
+                        <span id="height-label"></span>
+                        <h2 id="weight">Weight:</h2>
+                        <span id="weight-label"></span>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
