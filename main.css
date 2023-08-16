@@ -14,12 +14,30 @@ header {
 }
 
 #title {
+    
     padding: 1rem 2rem;
-    color: #ffffff;
+    /* font-weight: 500px;
+    font-family: 'Pokemon Solid', sans-serif;                            
+    color: yellow;
     margin-left: 20px;
-    text-shadow: 8px 5px 5px #000;
+    font-size: 40pt;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 10px 10px 0 blue,
+    10px 10px 0 blue;   */
+}
 
-
+.title-text {
+    background-color: white;
+    border: 5px solid black;
+    color: yellow;
+    display: inline-block;
+    font-family: 'Pokemon Solid', sans-serif;
+    font-size: 50pt;
+    letter-spacing: 3px;
+    margin-left: 20px;
+    -webkit-text-stroke: 3px black;
+    text-shadow: 3px 8px 0 blue,
+    8px 8px 0 blue;
 }
 
 @keyframes shake {
