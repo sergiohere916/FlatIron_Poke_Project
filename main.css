@@ -1,16 +1,22 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #060606;
-    margin: 0;
+    /* background-color: white; */
+    background-image: url("https://cutewallpaper.org/21/pokemon-grass-background/Pokemon-anime-background-2-Background-Check-All.jpg");
+    margin: 80px;
     padding: 0;
 }
 
 header {
     background-color: #ff3333;
+    border: 5px solid black;
     padding: 15px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 #title {
@@ -24,6 +30,14 @@ header {
     -webkit-text-stroke: 1px black;
     text-shadow: 10px 10px 0 blue,
     10px 10px 0 blue;   */
+}
+
+#pikachu-img {
+    /* margin-left: 40%; */
+    position: absolute; left: 80px; top: -10px;
+    height: 250px;
+    width: 250px;
+    
 }
 
 .title-text {
@@ -79,7 +93,10 @@ main {
     box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1);
 }
 
-#poke-form,
+#poke-form {
+    position: absolute; left: 65%; 
+}
+
 #team-search-form,
 #poke-team-form {
     display: flex;
@@ -104,7 +121,32 @@ input[type="submit"] {
 }
 
 /* Pokemon Info and Stats */
-#poke-entry,
+#poke-entry {
+    border: 5px solid black;
+    background-image: url("https://ssb.wiki.gallery/images/thumb/7/73/SSBU-Pok%C3%A9mon_Stadium_2.png/1200px-SSBU-Pok%C3%A9mon_Stadium_2.png");
+    background-position: center center;
+    /* width: 50%;
+    height: 400px; */
+    width: 50%;
+    height: auto;
+}
+
+#poke-info {
+    /* position: relative; */
+    margin: 0 auto;
+    /* width: 50%;
+    height: 400px; */
+}
+
+#main-poke-img {
+    margin: 0 auto;
+    position: center center;
+}
+
+#pokemon-name {
+    color: white;
+    text-shadow: black;
+}
 #stats,
 #team-search {
     border: 1px solid #f9bd07;

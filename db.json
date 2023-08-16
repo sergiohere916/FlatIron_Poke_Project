@@ -2203,5 +2203,64 @@
     "averageRating": 0,
     "favorited": false
   },
-  "teams": []
+  "teams": [
+    {
+      "teamName": "Charizard",
+      "pokemons": [
+        {
+          "name": "Bulbasaur",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+        }
+      ],
+      "ratings": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "averageRating": 0,
+      "favorited": true,
+      "id": 1
+    },
+    {
+      "teamName": "Sergio's Team",
+      "pokemons": [
+        {
+          "name": "Charmeleon",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+        },
+        {
+          "name": "Zapdos",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png"
+        },
+        {
+          "name": "Articuno",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png"
+        },
+        {
+          "name": "Flareon",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png"
+        },
+        {
+          "name": "Vaporeon",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png"
+        },
+        {
+          "name": "Moltres",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png"
+        }
+      ],
+      "ratings": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 3
+      },
+      "averageRating": "4.75",
+      "favorited": true,
+      "id": 2
+    }
+  ]
 }

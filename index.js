@@ -52,7 +52,7 @@ let currentTeamObj = {
 function renderPokemon(poke, poke2) {
     mainPoke = poke; 
     dbPoke = poke2; //added this as test
-    nameH1.textContent = poke.info.name;
+    nameH1.textContent = poke.name;
     entryId.textContent = poke.info.id;
     description.textContent = poke.info.description;
     mainPokeImage.src = poke2[poke.name];
