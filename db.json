@@ -1,0 +1,2226 @@
+{
+  "pokemon": [
+    {
+      "id": 1,
+      "Bulbasaur": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+      "category": "Seed",
+      "height": "2' 04",
+      "weight": "15.2",
+      "evolutions": [
+        {
+          "name": "Ivysaur",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
+        },
+        {
+          "name": "Venusaur",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "Ivysaur ": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+      "category": "Seed",
+      "height": "3' 03",
+      "weight": "28.7",
+      "evolutions": [
+        {
+          "name": "Bulbasaur",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+        },
+        {
+          "name": "Venusaur",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "Venusaur": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+      "category": "Seed",
+      "height": "6' 07",
+      "weight": "220.5",
+      "evolutions": [
+        {
+          "name": "Bulbasaur",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+        },
+        {
+          "name": "Ivysaur",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "Charmander": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "category": "Lizard",
+      "height": "2' 00",
+      "weight": "18.7",
+      "evolutions": [
+        {
+          "name": "Charmeleon",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+        },
+        {
+          "name": "Charizard",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "Charmeleon": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+      "category": "Flame",
+      "height": "3' 07",
+      "weight": "41.9",
+      "evolutions": [
+        {
+          "name": "Charmander",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+        },
+        {
+          "name": "Charizard",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "Charizard": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+      "category": "Flame",
+      "height": "5' 07",
+      "weight": "199.5",
+      "evolutions": [
+        {
+          "name": "Charmander",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+        },
+        {
+          "name": "Charmeleon",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "Squirtle": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+      "category": "Tiny Turtle",
+      "height": "1' 08",
+      "weight": "19.8",
+      "evolutions": [
+        {
+          "name": "Wartortle",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png"
+        },
+        {
+          "name": "Blastoise",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "Wartortle": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+      "category": "Turtle",
+      "height": "3' 03",
+      "weight": "49.6",
+      "evolutions": [
+        {
+          "name": "Squirtle",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
+        },
+        {
+          "name": "Blastoise",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "Blastoise": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+      "category": "Shellfish",
+      "height": "5' 03",
+      "weight": "188.5",
+      "evolutions": [
+        {
+          "name": "Squirtle",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
+        },
+        {
+          "name": "Wartortle",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "Caterpie": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+      "category": "Worm",
+      "height": "1' 00",
+      "weight": "6.4",
+      "evolutions": [
+        {
+          "name": "Metapod",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png"
+        },
+        {
+          "name": "Butterfree",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "Metapod": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/011.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+      "category": "Cocoon",
+      "height": "2' 04",
+      "weight": "21.8",
+      "evolutions": [
+        {
+          "name": "Caterpie",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png"
+        },
+        {
+          "name": "Butterfree",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "Butterfree": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/012.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+      "category": "Butterfly",
+      "height": "3' 03",
+      "weight": "49.6",
+      "evolutions": [
+        {
+          "name": "Caterpie",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png"
+        },
+        {
+          "name": "Metapod",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "Weedle": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/013.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
+      "category": "Hairy Bug",
+      "height": "1' 00",
+      "weight": "7.1",
+      "evolutions": [
+        {
+          "name": "Kakuna",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png"
+        },
+        {
+          "name": "Beedrill",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "Kakuna": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/014.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
+      "category": "Cocoon",
+      "height": "2' 00",
+      "weight": "22.0",
+      "evolutions": [
+        {
+          "name": "Weedle",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png"
+        },
+        {
+          "name": "Beedrill",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "Beedrill": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/015.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
+      "category": "Poison Bee",
+      "height": "3' 03",
+      "weight": "65.0",
+      "evolutions": [
+        {
+          "name": "Weedle",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png"
+        },
+        {
+          "name": "Kakuna",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "Pidgey": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
+      "category": "Tiny Bird",
+      "height": "1' 00",
+      "weight": "4.0",
+      "evolutions": [
+        {
+          "name": "Pidgeotto",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png"
+        },
+        {
+          "name": "Pidgeot",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "Pidgeotto ": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/017.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
+      "category": "Bird",
+      "height": "3' 07",
+      "weight": "66.1",
+      "evolutions": [
+        {
+          "name": "Pidgey",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png"
+        },
+        {
+          "name": "Pidgeot",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "Pidgeot": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/018.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
+      "category": "Bird",
+      "height": "4' 11",
+      "weight": "87.1",
+      "evolutions": [
+        {
+          "name": "Pidgey",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png"
+        },
+        {
+          "name": "Pidgeotto",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "Rattata": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
+      "category": "Mouse",
+      "height": "1' 00",
+      "weight": "7.7",
+      "evolutions": [
+        {
+          "name": "Raticate",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "Raticate": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/020.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
+      "category": "Worm",
+      "height": "2' 04",
+      "weight": "40.8",
+      "evolutions": [
+        {
+          "name": "Rattata",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "Spearow": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/021.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
+      "category": "Tiny Bird",
+      "height": "1' 00",
+      "weight": "4.4",
+      "evolutions": [
+        {
+          "name": "Fearow",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "Fearow": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/022.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
+      "category": "Beak",
+      "height": "3' 11",
+      "weight": "83.8",
+      "evolutions": [
+        {
+          "name": "Spearow",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "Ekans": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/023.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
+      "category": "Snake",
+      "height": "6' 07",
+      "weight": "15.2",
+      "evolutions": [
+        {
+          "name": "Arbok",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "Arbok": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/024.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
+      "category": "Cobra",
+      "height": "11' 06",
+      "weight": "143.3",
+      "evolutions": [
+        {
+          "name": "Ekans",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "Pikachu": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+      "category": "Mouse",
+      "height": "1' 04",
+      "weight": "13.2",
+      "evolutions": [
+        {
+          "name": "Raichu",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "Raichu": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/026.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
+      "category": "Mouse",
+      "height": "2' 07",
+      "weight": "66.1",
+      "evolutions": [
+        {
+          "name": "Pikachu",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "Sandshrew": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/027.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
+      "category": "Mouse",
+      "height": "2' 00",
+      "weight": "26.5",
+      "evolutions": [
+        {
+          "name": "Sandslash",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "Sandslash": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/028.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
+      "category": "Mouse",
+      "height": "3' 03",
+      "weight": "65.0",
+      "evolutions": [
+        {
+          "name": "Sandshrew",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "Nidoran♀": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/029.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
+      "category": "Poison Pin",
+      "height": "1' 04",
+      "weight": "15.4",
+      "evolutions": [
+        {
+          "name": "Nidorina",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png"
+        },
+        {
+          "name": "Nidoqueen",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "Nidorina": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/030.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
+      "category": "Poison Pin",
+      "height": "2' 07",
+      "weight": "44.1",
+      "evolutions": [
+        {
+          "name": "Nidorina",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png"
+        },
+        {
+          "name": "Nidoqueen",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "Nidoqueen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/031.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
+      "category": "Drill",
+      "height": "4' 03",
+      "weight": "132.3",
+      "evolutions": [
+        {
+          "name": "Nidorina",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png"
+        },
+        {
+          "name": "Nidorina",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "Nidoran♂": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/032.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
+      "category": "Poison Pin",
+      "height": "1' 08",
+      "weight": "19.8",
+      "evolutions": [
+        {
+          "name": "Nidorino",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png"
+        },
+        {
+          "name": "Nidoking",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "Nidorino": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/033.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
+      "category": "Poison Pin",
+      "height": "2' 11",
+      "weight": "43.0",
+      "evolutions": [
+        {
+          "name": "Nidoran♂",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png"
+        },
+        {
+          "name": "Nidoking",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "Nidoking": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/034.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
+      "category": "Drill",
+      "height": "4' 07",
+      "weight": "136.7",
+      "evolutions": [
+        {
+          "name": "Nidoran♂",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png"
+        },
+        {
+          "name": "Nidorino",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "Clefairy": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/035.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
+      "category": "Fairy",
+      "height": "2' 00",
+      "weight": "16.5",
+      "evolutions": [
+        {
+          "name": "Clefable",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "Clefable": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/036.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
+      "category": "Fairy",
+      "height": "4' 03",
+      "weight": "88.2",
+      "evolutions": [
+        {
+          "name": "Clefairy",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "Vulpix": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/037.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
+      "category": "Fox",
+      "height": "2' 00",
+      "weight": "21.8",
+      "evolutions": [
+        {
+          "name": "Ninetales",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "Ninetales": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/038.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
+      "category": "Fox",
+      "height": "3' 07",
+      "weight": "43.9",
+      "evolutions": [
+        {
+          "name": "Vulpix",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "Jigglypuff": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+      "category": "Balloon",
+      "height": "1' 08",
+      "weight": "12.1",
+      "evolutions": [
+        {
+          "name": "Wigglytuff",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "Wigglytuff": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/040.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
+      "category": "Balloon",
+      "height": "3' 03",
+      "weight": "26.5",
+      "evolutions": [
+        {
+          "name": "Jigglypuff",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "Zubat": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/041.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
+      "category": "Bat",
+      "height": "2' 07",
+      "weight": "16.5",
+      "evolutions": [
+        {
+          "name": "Golbat",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "Golbat": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/042.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
+      "category": "Bat",
+      "height": "5' 03",
+      "weight": "121.3",
+      "evolutions": [
+        {
+          "name": "Zubat",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "Oddish": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/043.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
+      "category": "Weed",
+      "height": "1' 08",
+      "weight": "11.9",
+      "evolutions": [
+        {
+          "name": "Gloom",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png"
+        },
+        {
+          "name": "Vileplume",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "Gloom": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/044.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
+      "category": "Weed",
+      "height": "2' 07",
+      "weight": "19.0",
+      "evolutions": [
+        {
+          "name": "Oddish",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png"
+        },
+        {
+          "name": "Vileplume",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "Vileplume": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/045.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
+      "category": "Flower",
+      "height": "3' 11",
+      "weight": "41.0",
+      "evolutions": [
+        {
+          "name": "Oddish",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png"
+        },
+        {
+          "name": "Gloom",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "Paras": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/046.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
+      "category": "Mushroom",
+      "height": "1' 00",
+      "weight": "11.9",
+      "evolutions": [
+        {
+          "name": "Parasect",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "Parasect": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/047.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
+      "category": "Mushroom",
+      "height": "3' 03",
+      "weight": "65.0",
+      "evolutions": [
+        {
+          "name": "Paras",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "Venonat": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/048.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
+      "category": "Insect",
+      "height": "3' 03",
+      "weight": "65.1",
+      "evolutions": [
+        {
+          "name": "Venomoth",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "Venomoth": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/049.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
+      "category": "Poison Moth",
+      "height": "4' 11",
+      "weight": "27.6",
+      "evolutions": [
+        {
+          "name": "Venonat",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "Diglett": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/050.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
+      "category": "Mole",
+      "height": "0' 08",
+      "weight": "1.8",
+      "evolutions": [
+        {
+          "name": "Dugtrio",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "Dugtrio": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/051.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
+      "category": "Mole",
+      "height": "2' 04",
+      "weight": "73.4",
+      "evolutions": [
+        {
+          "name": "Diglett",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "Meowth": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/052.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
+      "category": "Scratch Cat",
+      "height": "1' 04",
+      "weight": "9.3",
+      "evolutions": [
+        {
+          "name": "Persian",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "Persian": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/053.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
+      "category": "Classy Cat",
+      "height": "3' 03",
+      "weight": "70.5",
+      "evolutions": [
+        {
+          "name": "Meowth",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "Psyduck": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
+      "category": "Duck",
+      "height": "2' 07",
+      "weight": "43.2",
+      "evolutions": [
+        {
+          "name": "Golduck",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "Golduck": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/055.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
+      "category": "Duck",
+      "height": "5' 07",
+      "weight": "168.9",
+      "evolutions": [
+        {
+          "name": "Psyduck",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "Mankey": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/056.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
+      "category": "Pig Monkey",
+      "height": "1' 08",
+      "weight": "61.7",
+      "evolutions": [
+        {
+          "name": "Primeape",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "Primeape": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/057.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
+      "category": "Pig Monkey",
+      "height": "3' 03",
+      "weight": "70.5",
+      "evolutions": [
+        {
+          "name": "Mankey",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "Growlithe": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/058.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
+      "category": "Puppy",
+      "height": "2' 04",
+      "weight": "41.9",
+      "evolutions": [
+        {
+          "name": "Arcanine",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "Arcanine": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/059.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
+      "category": "Legendary",
+      "height": "6' 03",
+      "weight": "341.7",
+      "evolutions": [
+        {
+          "name": "Growlithe",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "Poliwag": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/060.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
+      "category": "Tadpole",
+      "height": "2' 00",
+      "weight": "27.3",
+      "evolutions": [
+        {
+          "name": "Poliwhirl",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png"
+        },
+        {
+          "name": "Poliwrath",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png"
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "Poliwhirl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/061.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
+      "category": "Tadpole",
+      "height": "3' 03",
+      "weight": "44.1",
+      "evolutions": [
+        {
+          "name": "Poliwag",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png"
+        },
+        {
+          "name": "Poliwrath",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "Poliwrath": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/062.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
+      "category": "Tadpole",
+      "height": "4' 03",
+      "weight": "119.0",
+      "evolutions": [
+        {
+          "name": "Poliwag",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png"
+        },
+        {
+          "name": "Poliwhirl",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png"
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "Abra": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/063.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
+      "category": "Psi",
+      "height": "2' 11",
+      "weight": "43.0",
+      "evolutions": [
+        {
+          "name": "Kadabra",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png"
+        },
+        {
+          "name": "Alakazam",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "Kadabra": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/064.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
+      "category": "Psi",
+      "height": "4' 03",
+      "weight": "124.6",
+      "evolutions": [
+        {
+          "name": "Abra",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png"
+        },
+        {
+          "name": "Alakazam",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png"
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "Alakazam": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/065.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
+      "category": "Psi",
+      "height": "4' 11",
+      "weight": "105.8",
+      "evolutions": [
+        {
+          "name": "Abra",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png"
+        },
+        {
+          "name": "Kadabra",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "Machop": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/066.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
+      "category": "Superpower",
+      "height": "2' 07",
+      "weight": "43.0",
+      "evolutions": [
+        {
+          "name": "Machoke",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png"
+        },
+        {
+          "name": "Machamp",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png"
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "Machoke": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/067.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
+      "category": "Superpower",
+      "height": "4' 11",
+      "weight": "155.4",
+      "evolutions": [
+        {
+          "name": "Machop",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png"
+        },
+        {
+          "name": "Machamp",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png"
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "Machamp": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/068.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
+      "category": "Superpower",
+      "height": "5' 03",
+      "weight": "286.6",
+      "evolutions": [
+        {
+          "name": "Machop",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png"
+        },
+        {
+          "name": "Machoke",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png"
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "Bellsprout": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/069.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
+      "category": "Flower",
+      "height": "2' 04",
+      "weight": "8.8",
+      "evolutions": [
+        {
+          "name": "Weepinbell",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png"
+        },
+        {
+          "name": "Victreebel",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png"
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "Weepinbell": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/070.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
+      "category": "Flycatcher",
+      "height": "3' 03",
+      "weight": "14.1",
+      "evolutions": [
+        {
+          "name": "Bellsprout",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png"
+        },
+        {
+          "name": "Victreebel",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png"
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "Victreebel": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/071.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
+      "category": "Flycatcher",
+      "height": "5' 07",
+      "weight": "34.2",
+      "evolutions": [
+        {
+          "name": "Bellsprout",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png"
+        },
+        {
+          "name": "Weepinbell",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png"
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "Tentacool": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/072.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
+      "category": "Jellyfish",
+      "height": "2' 11",
+      "weight": "100.3",
+      "evolutions": [
+        {
+          "name": "Tentacruel",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png"
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "Tentacruel": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/073.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
+      "category": "Jellyfish",
+      "height": "5' 03",
+      "weight": "121.3",
+      "evolutions": [
+        {
+          "name": "Tentacool",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png"
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "Geodude": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/074.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
+      "category": "Rock",
+      "height": "1' 04",
+      "weight": "44.1",
+      "evolutions": [
+        {
+          "name": "Graveler",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png"
+        },
+        {
+          "name": "Golem",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png"
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "Graveler": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/075.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
+      "category": "Rock",
+      "height": "3' 03",
+      "weight": "231.5",
+      "evolutions": [
+        {
+          "name": "Geodude",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png"
+        },
+        {
+          "name": "Golem",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png"
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "Golem": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/076.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
+      "category": "Megaton",
+      "height": "4' 07",
+      "weight": "661.4",
+      "evolutions": [
+        {
+          "name": "Geodude",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png"
+        },
+        {
+          "name": "Graveler",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png"
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "Ponyta": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/077.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
+      "category": "Fire Horse",
+      "height": "3' 03",
+      "weight": "66.1",
+      "evolutions": [
+        {
+          "name": "Rapidash",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png"
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "Rapidash": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/078.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
+      "category": "Fire Horse",
+      "height": "5' 07",
+      "weight": "209.4",
+      "evolutions": [
+        {
+          "name": "Ponyta",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png"
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "Slowpoke": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/079.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
+      "category": "Dopey",
+      "height": "3' 11",
+      "weight": "79.4",
+      "evolutions": [
+        {
+          "name": "Slowbro",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png"
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "Slowbro": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/080.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
+      "category": "Hermit Crab",
+      "height": "5' 03",
+      "weight": "173.1",
+      "evolutions": [
+        {
+          "name": "Slowpoke",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png"
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "Magnemite": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/081.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
+      "category": "Magnet",
+      "height": "1' 00",
+      "weight": "13.2",
+      "evolutions": [
+        {
+          "name": "Magneton",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png"
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "Magneton": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/082.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
+      "category": "Magnet",
+      "height": "3' 03",
+      "weight": "132.3",
+      "evolutions": [
+        {
+          "name": "Magnemite",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png"
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "Farfetch’d": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/083.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
+      "category": "Wild Duck",
+      "height": "2' 07",
+      "weight": "33.1",
+      "evolutions": []
+    },
+    {
+      "id": 84,
+      "Doduo": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/084.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
+      "category": "Twin Bird",
+      "height": "4' 07",
+      "weight": "86.4",
+      "evolutions": [
+        {
+          "name": "Dodrio",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png"
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "Dodrio": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/085.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
+      "category": "Triple Bird",
+      "height": "5' 11",
+      "weight": "187.8",
+      "evolutions": [
+        {
+          "name": "Doduo",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png"
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "Seel": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/086.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
+      "category": "Sea Lion",
+      "height": "3' 07",
+      "weight": "198.4",
+      "evolutions": [
+        {
+          "name": "Dewgong",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png"
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "Dewgong": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/087.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
+      "category": "Sea Lion",
+      "height": "5' 07",
+      "weight": "264.6",
+      "evolutions": [
+        {
+          "name": "Seel",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png"
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "Grimer": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/088.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
+      "category": "Sludge",
+      "height": "2' 11",
+      "weight": "66.1",
+      "evolutions": [
+        {
+          "name": "Muk",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png"
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "Muk": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/089.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
+      "category": "Sludge",
+      "height": "3' 11",
+      "weight": "66.1",
+      "evolutions": [
+        {
+          "name": "Grimer",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "Shellder": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/090.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
+      "category": "Bivalve",
+      "height": "1' 00",
+      "weight": "8.8",
+      "evolutions": [
+        {
+          "name": "Cloyster",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png"
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "Cloyster": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/091.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
+      "category": "Bivalve",
+      "height": "4' 11",
+      "weight": "292.1",
+      "evolutions": [
+        {
+          "name": "Shellder",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png"
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "Gastly": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/092.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
+      "category": "Gas",
+      "height": "4' 03",
+      "weight": "0.2",
+      "evolutions": [
+        {
+          "name": "Haunter",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png"
+        },
+        {
+          "name": "Gengar",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png"
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "Haunter": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/093.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
+      "category": "Gas",
+      "height": "5' 03",
+      "weight": "0.2",
+      "evolutions": [
+        {
+          "name": "Gastly",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png"
+        },
+        {
+          "name": "Gengar",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png"
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "Gengar": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/094.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
+      "category": "Shadow",
+      "height": "4' 11",
+      "weight": "89.3",
+      "evolutions": [
+        {
+          "name": "Gastly",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png"
+        },
+        {
+          "name": "Haunter",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png"
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "Onix": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/095.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
+      "category": "Rock Snake",
+      "height": "28' 10",
+      "weight": "436.0",
+      "evolutions": []
+    },
+    {
+      "id": 96,
+      "Drowzee": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/096.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
+      "category": "Hypnosis",
+      "height": "3' 03",
+      "weight": "71.4",
+      "evolutions": [
+        {
+          "name": "Hypno",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png"
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "Hypno": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/097.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
+      "category": "Hypnosis",
+      "height": "5' 03",
+      "weight": "166.7",
+      "evolutions": [
+        {
+          "name": "Drowzee",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png"
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "Krabby": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/098.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
+      "category": "River Crab",
+      "height": "1' 04",
+      "weight": "14.3",
+      "evolutions": [
+        {
+          "name": "Kingler",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png"
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "Kingler": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/099.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
+      "category": "River Crab",
+      "height": "4' 03",
+      "weight": "132.3",
+      "evolutions": [
+        {
+          "name": "Krabby",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png"
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "Voltorb": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/100.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
+      "category": "Ball",
+      "height": "1' 08",
+      "weight": "22.9",
+      "evolutions": [
+        {
+          "name": "Electrode",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png"
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "Electrode": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/101.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
+      "category": "Ball",
+      "height": "3' 11",
+      "weight": "146.8",
+      "evolutions": [
+        {
+          "name": "Voltorb",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png"
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "Exeggcute": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/102.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
+      "category": "Egg",
+      "height": "1' 04",
+      "weight": "5.5",
+      "evolutions": [
+        {
+          "name": "Exeggutor",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png"
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "Exeggutor": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/103.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
+      "category": "Coconut",
+      "height": "6' 07",
+      "weight": "264.6",
+      "evolutions": [
+        {
+          "name": "Exeggcute",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png"
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "Cubone": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/104.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
+      "category": "Lonely",
+      "height": "1' 04",
+      "weight": "14.3",
+      "evolutions": [
+        {
+          "name": "Marowak",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png"
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "Marowak": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/105.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
+      "category": "Bone Keeper",
+      "height": "3' 03",
+      "weight": "99.2",
+      "evolutions": [
+        {
+          "name": "Cubone",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png"
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "Hitmonlee": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/106.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png",
+      "category": "Kicking",
+      "height": "4' 11",
+      "weight": "109.8",
+      "evolutions": []
+    },
+    {
+      "id": 107,
+      "Hitmonchan": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/107.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
+      "category": "Punching",
+      "height": "4' 07",
+      "weight": "110.7",
+      "evolutions": []
+    },
+    {
+      "id": 108,
+      "Lickitung": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/108.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
+      "category": "Licking",
+      "height": "3' 11",
+      "weight": "144.4",
+      "evolutions": []
+    },
+    {
+      "id": 109,
+      "Koffing": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/109.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png",
+      "category": "Poison Gas",
+      "height": "2' 00",
+      "weight": "2.2",
+      "evolutions": [
+        {
+          "name": "Weezing",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png"
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "Weezing": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/110.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
+      "category": "Poison Gas",
+      "height": "3' 11",
+      "weight": "20.9",
+      "evolutions": [
+        {
+          "name": "Koffing",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png"
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "Rhyhorn": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/111.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
+      "category": "Spikes",
+      "height": "3' 03",
+      "weight": "253.5",
+      "evolutions": [
+        {
+          "name": "Rhydon",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png"
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "Rhydon": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/112.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
+      "category": "Drill",
+      "height": "6' 03",
+      "weight": "264.6",
+      "evolutions": [
+        {
+          "name": "Rhydon",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png"
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "Chansey": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/113.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
+      "category": "Egg",
+      "height": "3' 07",
+      "weight": "76.4",
+      "evolutions": []
+    },
+    {
+      "id": 114,
+      "Tangela": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/114.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
+      "category": "Vine",
+      "height": "3' 03",
+      "weight": "77.2",
+      "evolutions": []
+    },
+    {
+      "id": 115,
+      "Kangaskhan": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/115.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
+      "category": "Parent",
+      "height": "7' 03",
+      "weight": "176.4",
+      "evolutions": []
+    },
+    {
+      "id": 116,
+      "Horsea": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/116.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
+      "category": "Dragon",
+      "height": "1' 04",
+      "weight": "17.6",
+      "evolutions": [
+        {
+          "name": "Seadra",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png"
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "Seadra": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/117.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png",
+      "category": "Dragon",
+      "height": "3' 11",
+      "weight": "55.1",
+      "evolutions": [
+        {
+          "name": "Horsea",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png"
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "Goldeen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/118.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
+      "category": "Goldfish",
+      "height": "2' 00",
+      "weight": "33.1",
+      "evolutions": [
+        {
+          "name": "Seaking",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png"
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "Seaking": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/119.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
+      "category": "Goldfish",
+      "height": "4' 03",
+      "weight": "86.0",
+      "evolutions": [
+        {
+          "name": "Goldeen",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png"
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "Staryu": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/120.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
+      "category": "Star Shape",
+      "height": "2' 07",
+      "weight": "76.1",
+      "evolutions": [
+        {
+          "name": "Starmie",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png"
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "Starmie": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/121.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
+      "category": "Mysterious",
+      "height": "3' 07",
+      "weight": "176.4",
+      "evolutions": [
+        {
+          "name": "Staryu",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png"
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "Mr. Mime": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/122.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
+      "category": "Barrier",
+      "height": "4' 03",
+      "weight": "120.2",
+      "evolutions": []
+    },
+    {
+      "id": 123,
+      "Scyther": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/123.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
+      "category": "Mantis",
+      "height": "4' 11",
+      "weight": "123.5",
+      "evolutions": []
+    },
+    {
+      "id": 124,
+      "Jynx": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/124.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
+      "category": "Human Shape",
+      "height": "4' 07",
+      "weight": "89.5",
+      "evolutions": []
+    },
+    {
+      "id": 125,
+      "Electabuzz": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/125.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
+      "category": "Eletric",
+      "height": "3' 07",
+      "weight": "66.1",
+      "evolutions": []
+    },
+    {
+      "id": 126,
+      "Magmar": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/126.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
+      "category": "Spitfire",
+      "height": "4' 03",
+      "weight": "98.1",
+      "evolutions": []
+    },
+    {
+      "id": 127,
+      "Pinsir": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/127.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
+      "category": "Stag Beetle",
+      "height": "4' 11",
+      "weight": "121.3",
+      "evolutions": []
+    },
+    {
+      "id": 128,
+      "Tauros": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/128.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
+      "category": "Wild Bull",
+      "height": "4' 07",
+      "weight": "194.9",
+      "evolutions": []
+    },
+    {
+      "id": 129,
+      "Magikarp": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/129.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
+      "category": "Fish",
+      "height": "2' 11",
+      "weight": "22.0",
+      "evolutions": [
+        {
+          "name": "Gyarados",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png"
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "Gyarados": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/130.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
+      "category": "Atrocious",
+      "height": "21' 04",
+      "weight": "518.1",
+      "evolutions": [
+        {
+          "name": "Magikarp",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png"
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "Lapras": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/131.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
+      "category": "Transport",
+      "height": "8' 02",
+      "weight": "485.0",
+      "evolutions": []
+    },
+    {
+      "id": 132,
+      "Ditto": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/132.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
+      "category": "Transform",
+      "height": "1' 00",
+      "weight": "8.8",
+      "evolutions": []
+    },
+    {
+      "id": 133,
+      "Eevee": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
+      "category": "Evolution",
+      "height": "1' 00",
+      "weight": "14.3",
+      "evolutions": [
+        {
+          "name": "Vaporeon",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png"
+        },
+        {
+          "name": "Jolteon",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png"
+        },
+        {
+          "name": "Flareon",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png"
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "Vaporeon": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/134.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
+      "category": "Bubble Jet",
+      "height": "3' 03",
+      "weight": "63.9",
+      "evolutions": [
+        {
+          "name": "Eevee",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "Jolteon": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/135.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
+      "category": "Lightning",
+      "height": "2' 07",
+      "weight": "54.0",
+      "evolutions": [
+        {
+          "name": "Eevee",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "Flareon": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/136.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
+      "category": "Flame",
+      "height": "2' 11",
+      "weight": "55.1",
+      "evolutions": [
+        {
+          "name": "Eevee",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "Porygon": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/137.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
+      "category": "Virtual",
+      "height": "2' 07",
+      "weight": "80.5",
+      "evolutions": []
+    },
+    {
+      "id": 138,
+      "Omanyte": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/138.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
+      "category": "Spiral",
+      "height": "1' 04",
+      "weight": "16.5",
+      "evolutions": [
+        {
+          "name": "Omastar",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png"
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "Omastar": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/139.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
+      "category": "Spiral",
+      "height": "3' 03",
+      "weight": "77.2",
+      "evolutions": [
+        {
+          "name": "Omanyte",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png"
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "Kabuto": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/140.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
+      "category": "Shellfish",
+      "height": "1' 08",
+      "weight": "25.4",
+      "evolutions": [
+        {
+          "name": "Kabutops",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png"
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "Kabutops": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/141.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
+      "category": "Shellfish",
+      "height": "4' 03",
+      "weight": "89.3",
+      "evolutions": [
+        {
+          "name": "Kabuto",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png"
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "Aerodactyl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/142.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
+      "category": "Fossil",
+      "height": "5' 11",
+      "weight": "130.1",
+      "evolutions": []
+    },
+    {
+      "id": 143,
+      "Snorlax": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/143.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
+      "category": "Sleeping",
+      "height": "6' 11",
+      "weight": "1014.1",
+      "evolutions": []
+    },
+    {
+      "id": 144,
+      "Articuno": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/144.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
+      "category": "Freeze",
+      "height": "5' 07",
+      "weight": "122.1",
+      "evolutions": []
+    },
+    {
+      "id": 145,
+      "Zapdos": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/145.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
+      "category": "Electric",
+      "height": "5' 03",
+      "weight": "116.0",
+      "evolutions": []
+    },
+    {
+      "id": 146,
+      "Moltres": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/146.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
+      "category": "Flame",
+      "height": "6' 07",
+      "weight": "132.3",
+      "evolutions": []
+    },
+    {
+      "id": 147,
+      "Dratini": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/147.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
+      "category": "Dragon",
+      "height": "5' 11",
+      "weight": "7.3",
+      "evolutions": [
+        {
+          "name": "Dragonair",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png"
+        },
+        {
+          "name": "Dragonite",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png"
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "Dragonair": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/148.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
+      "category": "Dragon",
+      "height": "13' 01",
+      "weight": "36.4",
+      "evolutions": [
+        {
+          "name": "Dratini",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png"
+        },
+        {
+          "name": "Dragonite",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png"
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "Dragonite": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/149.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
+      "category": "Dragon",
+      "height": "7' 03",
+      "weight": "463.0",
+      "evolutions": [
+        {
+          "name": "Dratini",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png"
+        },
+        {
+          "name": "Dragonair",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png"
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "Mewtwo": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
+      "category": "Genetic",
+      "height": "6' 07",
+      "weight": "269.0",
+      "evolutions": []
+    },
+    {
+      "id": 151,
+      "Mew": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/151.png",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
+      "category": "New Species",
+      "height": "1' 04",
+      "weight": "8.8",
+      "evolutions": []
+    }
+  ],
+  "currentTeam": {
+    "teamName": " ",
+    "pokemons": [
+      {
+        "Charmander": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+      },
+      {
+        "Nidoking": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png"
+      },
+      {
+        "Tauros": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png"
+      },
+      {
+        "Beedrill": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png"
+      },
+      {
+        "Butterfree": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
+      },
+      {
+        "Lapras": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png"
+      }
+    ],
+    "ratings": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "averageRating": 0,
+    "favorited": false
+  },
+  "teams": []
+}

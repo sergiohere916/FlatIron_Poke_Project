@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokemon website</title>
     <script defer src="index.js"></script>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
 
     <head>
 
@@ -23,43 +23,111 @@
                         <input type="text" name="name" placeholder="NAME...">
                         <input type="submit" value="Search">
                     </form>
+                    <div id="current-team-holder">
+                        <!--This div contains the form for submitting a user's team, it will grab info from the sprites-->
+                        <h2>Your Poke-Team</h2>
+                        <div id="current-team">
+
+                            <form id="current-team-form">
+                                <input type="text" name="teamInputter" placeholder="Enter your Team's Name">
+                                <input type="submit" value="Store Team">
+                            </form>
+                        </div>
+                    </div>
+                    <div id="poke-entry">
+                        <div id="poke-name">
+                            <h1 id="pokemon-name">Pokemon Name</h1>
+                        </div>
+                        <div id="poke-info">
+                            <h1 id="entry-id"></h1>
+                            <img id="main-poke-img">
+                        </div>
+                        <div id="poke-description">
+                            <p id="description"></p>
+                        </div>
+                        <button id="add-poke">Add to Team</button>
+                    </div>
+                    <div id="stats">
+                        <div id="types">
+                            <h2 id="type-header">Type</h2>
+                            <span id="type-label"></span>
+                            <h2 id="weakness-header">Weakness</h2>
+                            <span id="weakness-label"></span>
+                        </div>
+                        <div id="moves">
+                            <h2 id="moves-label">Moves</h2>
+                            <ol>
+                                <!-- Pokemon moves go here -->
+                            </ol>
+                        </div>
+                        <!-- Height and weight -->
+                        <div id="height-weight">
+                            <h2 id="height">Height:</h2>
+                            <span id="height-label"></span>
+                            <h2 id="weight">Weight:</h2>
+                            <span id="weight-label"></span>
+                        </div>
+                        <div id="species">
+                            <h2 id="species-label">Species:</h2>
+                            <span id="poke-species"></span>
+                        </div>
+                        <div id="evolutions">
+                            <h2 id="evolutions-header">Evolutions:</h2>
+                            <ul id="evolutions-list">
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="team-search">
+                        <h2 id="team-search-title">Access Your Team</h2>
+                        <form id="team-search-form">
+                            <input type="text" name="grab-team" placeholder="Enter Team Name">
+                            <input type="submit" value="Display Team">
+                        </form>
+                    </div>
                 </div>
-                <div id="poke-entry">
-                    <div id="poke-name">
-                        <h1 id="pokemon-name">Pokemon Name</h1>
+        </main>
+        <footer>
+            <div id="retrieved-team-section">
+                <div id="team-holder-rater">
+                    <!--This div will contain the cards for the selected team including the sprites and names of the pokemon in the sprites-->
+                    <div id="retrived-team-poke-1">
+                        <h5 id="ret-poke-1-name"></h5>
+                        <img id="ret-poke-1-img" />
+                        <button class="remove-poke">x</button>
                     </div>
-                    <div id="poke-info">
-                        <h1 id="entry-id">7</h1>
-                        <img id="main-poke-img">
+                    <div id="retrieved-team-poke-2">
+                        <h5 id="ret-poke-2-name"></h5>
+                        <img id="ret-poke-2-img" />
+                        <button class="remove-poke">x</button>
                     </div>
-                    <div id="poke-description">
-                        <p id="description"></p>
+                    <div id="retrieved-team-poke-3">
+                        <h5 id="ret-poke-3-name"></h5>
+                        <img id="ret-poke-3-img" />
+                        <button class="remove-poke">x</button>
                     </div>
-                    <button id="add-poke">Add to Team</button>
-                </div>
-                <div id="stats">
-                    <div id="types">
-                        <h2 id="type-header">Type</h2>
-                        <span id="type-label"></span>
-                        <h2 id="weakness-header">Weakness</h2>
-                        <span id="weakness-label"></span>
+                    <div id="retrived-team-poke-4">
+                        <h5 id="ret-poke-4-name"></h5>
+                        <img id="ret-poke-4-img" />
+                        <button class="remove-poke">x</button>
                     </div>
-                    <div id="moves">
-                        <h2 id="moves-label">Moves</h2>
-                        <ol>
-                            <!-- Pokemon moves go here -->
-                        </ol>
+                    <div id="retrieved-team-poke-5">
+                        <h5 id="ret-poke-5-name"></h5>
+                        <img id="ret-poke-5-img" />
+                        <button class="remove-poke">x</button>
                     </div>
-                    <!-- Height and weight -->
-                    <div id="height-weight">
-                        <h2 id="height">Height:</h2>
-                        <span id="height-label"></span>
-                        <h2 id="weight">Weight:</h2>
-                        <span id="weight-label"></span>
+                    <div id="retrieved-team-poke-6">
+                        <h5 id="ret-poke-6-name"></h5>
+                        <img id="ret-poke-6-img" />
+                        <button class="remove-poke">x</button>
                     </div>
+                    <form id="rating-form">
+                        <label>Give This Team a Rating: </label>
+                        <input type="text" name="userReview" placeholder="/5">
+                        <input type="submit" value="Submit Review">
+                    </form>
                 </div>
             </div>
-        </main>
+        </footer>
     </body>
 
 </html>

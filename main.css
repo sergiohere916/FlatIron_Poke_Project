@@ -1,0 +1,122 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff3333;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#title {
+    color: #ffffff;
+    margin-left: 20px;
+    font-size: 1.8rem;
+}
+
+#pokeball-img {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1);
+}
+
+#poke-form,
+#team-search-form,
+#poke-team-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 5px 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    padding: 5px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff3333;
+    color: white;
+    cursor: pointer;
+}
+
+/* Pokemon Info and Stats */
+#poke-entry,
+#stats,
+#team-search {
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+button {
+    background-color: #ff3333;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#team-section {
+    display: flex;
+    gap: 20px;
+}
+
+#team-section-submitter,
+#team-section-holder-rater {
+    flex: 1;
+}
+
+#team-poke-1,
+#team-poke-2,
+#team-poke-3,
+#team-poke-4,
+#team-poke-5,
+#team-poke-6 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#poke-1-img,
+#poke-2-img,
+#poke-3-img,
+#poke-4-img,
+#poke-5-img,
+#poke-6-img {
+    width: 60px;
+    height: 60px;
+}
+
+.remove-poke {
+    background-color: #ff0000;
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    line-height: 0;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
