@@ -12,6 +12,8 @@ const nameH1 = document.getElementById("pokemon-name");
 const entryId = document.getElementById("entry-id");
 const description = document.getElementById("description");
 
+const shinyBtn = document.getElementById("shiny-btn");
+
 const mainPokeImage = document.getElementById("main-poke-img");
 const typeDisplaySpan = document.getElementById("type-label");
 const weaknessDisplaySpan = document.getElementById("weakness-label");
@@ -32,7 +34,7 @@ let mainPoke = {};
 let dbPoke = {};
 let pokemonObjs = [];
 let selectedTeamObj = {};
-let favorites = [];
+let shinyToggle = false;
 
 let currentTeamObj = {
     teamName: "",
@@ -44,15 +46,14 @@ let currentTeamObj = {
       4: 0,
       5: 0
     },
-    averageRating: 0,
-    favorited: false
+    averageRating: 0
 };
 
 
 function renderPokemon(poke, poke2) {
     mainPoke = poke; 
     dbPoke = poke2; //added this as test
-    nameH1.textContent = poke.name;
+    nameH1.textContent = poke.info.name;
     entryId.textContent = poke.info.id;
     description.textContent = poke.info.description;
     mainPokeImage.src = poke2[poke.name];
@@ -162,41 +163,7 @@ function renderingTeamObj(team) {
 
     const infoDiv = document.createElement("div");
     const pokeDiv = document.createElement("div");
-    const ratingStar = document.createElement("h1");
-    ratingStar.style.color = "yellow";
-    infoDiv.append(ratingStar);
 
-    let fav = team.favorited;
-
-    if (team.favorited) {
-        ratingStar.textContent = "★";
-    } else {
-        ratingStar.textContent = "✰";
-    }
-
-    ratingStar.addEventListener("click", (e) => {
-        fetch(`${pokeAllTeamsUrl}/${team.id}`, {
-            method: "PATCH",
-            headers: {"content-type": "application/json"},
-            body: JSON.stringify({favorited: !(fav)})
-        })
-        .then(res => res.json())
-        .then(data => {
-            console.log("THIS IS YOUR DATA EMAN")
-            console.log(data);
-            fav = data.favorited;
-            if (data.favorited) {
-                ratingStar.textContent = "★";
-                // favorites.push(data);
-            } else {
-                ratingStar.textContent = "✰";
-                // const index = favorites.indexOf(data);
-                // favorites.splice(index,1);
-
-            }
-            console.log(favorites);
-        })
-    })
     mainDiv.className = "team-div";
 
     const pokeTeamName = document.createElement("h5");
@@ -224,12 +191,6 @@ function renderingTeamObj(team) {
         console.log(selectedTeamObj);
     })
 }
-
-ratingForm.addEventListener("submit", (e) => {
-    e.preventDefault();
-    const rating = e.target[0].value
-    updateRating(rating);
-})
 
 function updateRating(rating) {
     selectedTeamObj.ratings[rating] += 1
@@ -295,6 +256,30 @@ currentTeamForm.addEventListener("submit", (e) => {
     }
 })
 
+shinyBtn.addEventListener("click", (e) => {
+    if (shinyToggle) {
+        e.target.style.backgroundColor = "#ff3333";
+        mainPokeImage.src = dbPoke[mainPoke.name];
+        shinyToggle = false;
+    } else {
+        e.target.style.backgroundColor = "orange"
+        mainPokeImage.src = dbPoke["shiny"];
+        shinyToggle = true;
+    }
+    console.log(shinyToggle);
+})
+
+ratingForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+    if (selectedTeamObj.length > 0) {
+        const rating = e.target[0].value
+        updateRating(rating);
+    } else {
+        alert("No team selected");
+    }
+})
+
+
 fetch(pokeAllTeamsUrl)
 .then(response => response.json())
 .then(teams => {
@@ -302,15 +287,6 @@ fetch(pokeAllTeamsUrl)
         renderingTeamObj(team);
     })
 })
-
-
-
-
-
-
-
-
-
 
 
 
