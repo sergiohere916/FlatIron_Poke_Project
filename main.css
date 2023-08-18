@@ -1,91 +1,93 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #060606;
-    margin: 0;
+    background-color: rgba(255, 244, 255, 1);
+    /* background-color: white; */
+    margin: 80px;
     padding: 0;
+    margin-top: 350px;
 }
 
 header {
-    background-color: #ff3333;
+    background: linear-gradient(#0096FF, #0088A3);
     padding: 15px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 0px 10px 10px #020024;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.3s;
+    z-index: 2;
 }
 
 #title {
-    
     padding: 1rem 2rem;
-    /* font-weight: 500px;
-    font-family: 'Pokemon Solid', sans-serif;                            
-    color: yellow;
-    margin-left: 20px;
-    font-size: 40pt;
-    -webkit-text-stroke: 1px black;
-    text-shadow: 10px 10px 0 blue,
-    10px 10px 0 blue;   */
+}
+
+#pikachu-img {
+    /* margin-left: 40%; */
+    position: absolute; left: 100px; top: 0px;
+    height: 150px;
+    width: 150px;
 }
 
 .title-text {
     background-color: white;
-    border: 5px solid black;
+    border: 3px solid black;
     color: yellow;
     display: inline-block;
     font-family: 'Pokemon Solid', sans-serif;
-    font-size: 50pt;
+    font-size: 50px;
     letter-spacing: 3px;
     margin-left: 20px;
     -webkit-text-stroke: 3px black;
     text-shadow: 3px 8px 0 blue,
     8px 8px 0 blue;
-}
-
-@keyframes shake {
-    0% {transform: translate(1px, 1px) rotate(0deg);}
-    10% {transform: translate(-1px, -2px) rotate(-1deg);}
-    20% {transform: translate(-2px, 0px) rotate(1deg);}
-    30% {transform: translate(1px, 2px) rotate(0deg);}
-    40% {transform: translate(1px, -1px) rotate(1deg);}
-    50% {transform: translate(-1px, 2px) rotate(-1deg);}
-    60% {transform: translate(-1px, 1px) rotate(0deg);}
-    70% {transform: translate(2px, 1px) rotate(-1deg);}
-    80% {transform: translate(-1px, -1px) rotate(1deg);}
-    90% {transform: translate(2px, 2px) rotate(0deg);}
-    100% {transform: translate(1px, -2px) rotate(-1deg);}
+    border-radius: 300px;
 }
 
 #pokeball-img {
-    width: 30%;
-    height: auto;
-    margin-right: 20px;
-    transform: translate3d(0, 0, 0);
+    width: 10%;
+    height: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: 100px;
 }
-
-#pokeball-img:hover {
-    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
-}
-
-#pokeball-img {
-    width: 150px;
-    height: 100px;
-    margin-right: 20px;
-
-}
-
 main {
-    padding: 20px;
-    background-color: #707070;
-    margin: 20px;
-    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px 20px;
+    height: 100%;
+    background-color: #0096FF;
+    margin: 45px 20px;
+    box-shadow: 0 10px 25px black;
+    border-radius: 10px;
+
 }
 
-#poke-form,
-#team-search-form,
-#poke-team-form {
+#poke-form, #team-search-form, #poke-team-form {
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
+}
 
+#current-team {
+    height: 150px;
+    margin-left: 10px;
+    padding: 0 30px;
+}
+
+#current-team-holder {
+    background-color: rgba(255, 2555, 255, 0.4);
+    align-items: center;
+    width: 50%;
+    margin-left: 70px;
+    border-radius: 10px;
+}
+
+#current-team-holder h2 {
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
 input[type="text"] {
@@ -98,22 +100,100 @@ input[type="submit"] {
     padding: 5px 15px;
     border: none;
     border-radius: 4px;
-    background-color: #ff3333;
+    background-color: #DC143C;
     color: white;
     cursor: pointer;
+    box-shadow: 2px 3px 4px black;
 }
 
-/* Pokemon Info and Stats */
-#poke-entry,
-#stats,
-#team-search {
-    border: 1px solid #f9bd07;
-    border-top: 5px solid rgb(255, 149, 0);
-    border-right: 5px solid #f87c00;
-    border-bottom: 5px solid #f80000;
-    border-left: 5px solid #f60606;
-    padding: 20px;
-    margin: 20px 0;
+#current-team div {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px; */
+    padding: 10px 27px;
+    margin: 15px;
+    float: left;
+    align-items: center;
+}
+
+#current-team div h5 {
+    position: relative; top: -50px; left: 75px;
+}
+
+#current-team div button {
+    position: relative; top: 50px; left: -65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+}
+
+#poke-entry {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-image: url("https://ssb.wiki.gallery/images/thumb/7/73/SSBU-Pok%C3%A9mon_Stadium_2.png/1200px-SSBU-Pok%C3%A9mon_Stadium_2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 47%;
+    height: 100%;
+    float: left;
+    background-color: lightgray;
+}
+
+#poke-main {
+    display: inline-block;
+    width: 100%;
+}
+
+#poke-name {
+    color: white;
+    padding-left: 20px;
+}
+
+#poke-description {
+    border: 2px solid black;
+    background-color: white;
+}
+
+#description {
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+#stats {
+    background: linear-gradient(#ffcccb, #DC143C, #ffcccb);
+    float: left;
+    width: 47%;
+    max-height: 500px;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 55px;
+}
+
+#stats * {
+    display: inline-block;
+    padding: 5px;
+}
+
+#poke-info {
+    /* position: relative; */
+    /* margin: 0 auto; */
+    /* width: 50%;
+    height: 400px; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-poke-img {
+    margin: auto;
 }
 
 h2 {
@@ -124,7 +204,8 @@ button {
     background-color: #ff3333;
     color: white;
     padding: 5px 10px;
-    border: none;
+    border: 3px solid black;
+    box-shadow: 5px 5px 5px black;
     border-radius: 4px;
     cursor: pointer;
 }
@@ -134,56 +215,88 @@ button {
     gap: 20px;
 }
 
-#team-section-submitter,
-#team-section-holder-rater {
+#team-section-submitter, #team-section-holder-rater {
     flex: 1;
 }
 
-#team-poke-1,
-#team-poke-2,
-#team-poke-3,
-#team-poke-4,
-#team-poke-5,
-#team-poke-6 {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+footer {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 1.2em;
 }
 
-#poke-1-img,
-#poke-2-img,
-#poke-3-img,
-#poke-4-img,
-#poke-5-img,
-#poke-6-img {
-    width: 60px;
-    height: 60px;
-}
-
-.remove-poke {
-    background-color: #ff0000;
-    border: none;
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
-    line-height: 0;
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-h5 {
-    padding: 5px 10px;
-    text-align: center;
-    background-color: #fe2d08;
-    border-top: 3px solid #f5a60a;
-    border-right: 3px solid #f0eee9;
-    border-bottom: 3px solid #fead0a;
-    border-left: 3px solid #f8a100;
+#retrieved-team-section {
+    margin-top: 40px;
+    background-color: lightgray;
+    border-radius: 10px;
+    background: linear-gradient(#ffcccb, #DC143C, #ffcccb);
 }
 
 #team-holder-rater {
+    height: 500px;
     overflow: auto;
+    margin-top: 20px;
+}
+
+.team-div {
+    background: linear-gradient(lightgray, white, lightgray);
+    border-radius: 10px;
+    padding: 0 10px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.poke-div {
+    background-image: url(https://images-ext-2.discordapp.net/external/i8vxEzQOWNmrWSpcvVDWgd-tJMNfy9PHdfjx1hsFPrQ/https/www.seekpng.com/png/full/160-1602772_opened-pokeball-by-napsterking-on-deviantart-jpg-freeuse.png?width=402&height=480);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-clip: border-box;
+    background-size: 150px;
+    padding: 20px 75px;  
+}
+
+#rating-form {
+    padding-top: 1.5em;
+    padding-left: 2em;
+    font-weight: bolder;
+}
+
+#widgets {
+    border: 5px solid black;
+    margin-top: 50px;
     height: 440px;
+    overflow: auto;
+    border-radius: 10px;
+    background-image: url("https://pokemonrevolution.net/forum/uploads/monthly_2021_03/DVMT-6OXcAE2rZY.jpg.afab972f972bd7fbd4253bc7aa1cf27f.jpg");
+}
+
+
+#widgets div {
+    display: inline;
+    height: 5%;
+    width: 5%;
+    padding: 10px;
+    filter: blur(0px);
+    
+}
+
+#widgets img {
+    margin: 30px 0;
+    margin-left: 40px;
+    border: #020024 solid;
+    padding: 20px 5px;
+    height: 17%;
+    width: 6%;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2fb2821a-1406-4a1d-9b04-6668f278e944/d843okx-eb13e8e4-0fa4-4fa9-968a-e0f36ff168de.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzJmYjI4MjFhLTE0MDYtNGExZC05YjA0LTY2NjhmMjc4ZTk0NFwvZDg0M29reC1lYjEzZThlNC0wZmE0LTRmYTktOTY4YS1lMGYzNmZmMTY4ZGUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.TIK_E5L8dTyBUk_dADA5WkLP8jSJMR7YGJG54KNAido");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+#stats span, li {
+    font-weight: bold;
+    color: white;
 }
