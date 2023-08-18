@@ -115,7 +115,6 @@ is sent to the back end using a fetch post
 currentTeamForm.addEventListener("submit", (e) => {
     e.preventDefault();
     const pokeTeamName = e.target[0].value;
-    console.log(pokeTeamName)
     if ((pokemonObjs.length !== 0) && (pokeTeamName !== "")) {
         creatingTeamObj(pokeTeamName)
     } else {
@@ -142,7 +141,6 @@ shinyBtn.addEventListener("click", (e) => {
 
 ratingForm.addEventListener("submit", (e) => {
     e.preventDefault();
-    console.log(selectedTeamObj);
     if (Object.keys(selectedTeamObj).length !== 0) {
         const rating = e.target[0].value
         updateRating(rating);
@@ -239,7 +237,6 @@ function renderPokemonWidget(pokeWidget) {
     })
     
     const pokeName = Object.keys(pokeWidget)[1];
-    // console.log(pokeName)
 
     newImg.addEventListener("click", () => {
         fetch(`${url}${pokeName}`)
@@ -366,8 +363,16 @@ function renderingTeamObj(team) {
     pokemonObjs = []; 
 
     mainDiv.addEventListener("click", () => {
-        selectedTeamObj = {...team, header: pokeTeamRating};
-        console.log(selectedTeamObj);
+        if (Object.keys(selectedTeamObj).length !== 0) {
+            selectedTeamObj.div.style.boxShadow = "";
+            pokeDiv.style.boxShadow = "5px 5px 5px 10px blue"
+            selectedTeamObj = {...team, header: pokeTeamRating, div: pokeDiv};
+            console.log("click");
+        } else {
+            pokeDiv.style.boxShadow = "5px 5px 5px 5px blue"   
+            selectedTeamObj = {...team, header: pokeTeamRating, div: pokeDiv};
+            console.log("click");
+        }
     })
 }
 
