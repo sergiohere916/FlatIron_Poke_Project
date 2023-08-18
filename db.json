@@ -578,7 +578,7 @@
       "weight": "44.1",
       "evolutions": [
         {
-          "name": "Nidorina",
+          "name": "Nidoran(F)",
           "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png"
         },
         {
@@ -599,7 +599,7 @@
       "weight": "132.3",
       "evolutions": [
         {
-          "name": "Nidorina",
+          "name": "Nidoran(F)",
           "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png"
         },
         {
@@ -641,7 +641,7 @@
       "weight": "43.0",
       "evolutions": [
         {
-          "name": "Nidoran♂",
+          "name": "Nidoran(M)",
           "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png"
         },
         {
@@ -662,7 +662,7 @@
       "weight": "136.7",
       "evolutions": [
         {
-          "name": "Nidoran♂",
+          "name": "Nidoran(M)",
           "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png"
         },
         {
