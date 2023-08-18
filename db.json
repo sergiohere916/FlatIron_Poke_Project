@@ -338,7 +338,7 @@
     },
     {
       "id": 17,
-      "Pidgeotto ": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/017.png",
+      "Pidgeotto": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/017.png",
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
       "category": "Bird",
       "height": "3' 07",
@@ -550,7 +550,7 @@
     },
     {
       "id": 29,
-      "Nidoran♀": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/029.png",
+      "Nidoran(F)": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/029.png",
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
       "category": "Poison Pin",
       "height": "1' 04",
@@ -613,7 +613,7 @@
     },
     {
       "id": 32,
-      "Nidoran♂": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/032.png",
+      "Nidoran(M)": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/032.png",
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
       "category": "Poison Pin",
       "height": "1' 08",
@@ -628,9 +628,9 @@
           "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png"
         }
       ],
-      "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/31.png",
-      "gif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/31.gif",
-      "sprite2": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/31.png"
+      "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/32.png",
+      "gif": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/32.gif",
+      "sprite2": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/32.png"
     },
     {
       "id": 33,
@@ -1564,7 +1564,7 @@
     },
     {
       "id": 83,
-      "Farfetch’d": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/083.png",
+      "Farfetch'd": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/083.png",
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
       "category": "Wild Duck",
       "height": "2' 07",
@@ -2656,5 +2656,184 @@
     "averageRating": 0,
     "favorited": false
   },
-  "teams": []
+  "teams": [
+    {
+      "teamName": "Eman's team",
+      "pokemons": [
+        {
+          "name": "Blastoise",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
+        },
+        {
+          "name": "Squirtle",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
+        },
+        {
+          "name": "Arcanine",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png"
+        },
+        {
+          "name": "Psyduck",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png"
+        },
+        {
+          "name": "Jynx",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png"
+        },
+        {
+          "name": "Snorlax",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png"
+        }
+      ],
+      "ratings": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      },
+      "averageRating": "5.00",
+      "id": 1
+    },
+    {
+      "teamName": "Serg's God Squad",
+      "pokemons": [
+        {
+          "name": "Articuno",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png"
+        },
+        {
+          "name": "Zapdos",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png"
+        },
+        {
+          "name": "Moltres",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png"
+        },
+        {
+          "name": "Dragonite",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png"
+        },
+        {
+          "name": "Mewtwo",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png"
+        },
+        {
+          "name": "Mew",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png"
+        }
+      ],
+      "ratings": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      },
+      "averageRating": "5.00",
+      "id": 2
+    },
+    {
+      "teamName": "Rachel's Fish Market",
+      "pokemons": [
+        {
+          "name": "Magikarp",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png"
+        },
+        {
+          "name": "Magikarp",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png"
+        },
+        {
+          "name": "Magikarp",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png"
+        },
+        {
+          "name": "Magikarp",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png"
+        },
+        {
+          "name": "Magikarp",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png"
+        },
+        {
+          "name": "Magikarp",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png"
+        }
+      ],
+      "ratings": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "averageRating": 0,
+      "id": 3
+    },
+    {
+      "teamName": "Bailey's Gym Bros",
+      "pokemons": [
+        {
+          "name": "Rhydon",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png"
+        },
+        {
+          "name": "Golem",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png"
+        },
+        {
+          "name": "Machamp",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png"
+        },
+        {
+          "name": "Onix",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png"
+        }
+      ],
+      "ratings": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "averageRating": 0,
+      "id": 4
+    },
+    {
+      "teamName": "Starters",
+      "pokemons": [
+        {
+          "name": "Bulbasaur",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+        },
+        {
+          "name": "Charmander",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+        },
+        {
+          "name": "Squirtle",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
+        },
+        {
+          "name": "Pikachu",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+        },
+        {
+          "name": "Eevee",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"
+        }
+      ],
+      "ratings": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "averageRating": 0,
+      "id": 5
+    }
+  ]
 }

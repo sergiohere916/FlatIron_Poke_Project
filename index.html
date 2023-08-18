@@ -5,23 +5,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Pokemon website</title>
         <script defer src="index.js"></script>
+        <link href="https://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+        <style>
+            @import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+        </style>
         <link rel="stylesheet" type="text/css" href="main.css">
-    <head>
+    <head>  
     <body>
         <header>
             <h1 id="title"><span class="title-text">Poke-Teams</span></h1>
             <img id="pikachu-img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmu4rVu_CizCPYQjqEWCljRttwGON0AZaDrFV__c5Hyka5yPaxw9MKKWRh-A-11Ww0PttAH-3qsdNqB2lAChAmrOo-TurnBoCnYTvBEmRtvUVvPHKj9hKFAEHHVkOt1Es6nMpIQO7vbhvOpSUeYHjO7NMKn_M_IGIaRneT-imVeXwve-KAKJWr28iv/s1024/pikachu-009.png"/>
-            <img id="pokeball-img" src="https://images-ext-2.discordapp.net/external/xLOB9KRyzN8xbWRlYGcCobAEYp77mdIi6GzV6bE0224/https/www.pngarts.com/files/4/Pokeball-PNG-Picture.png?width=548&height=365">
-        </header>
-        <main>
-            <div id="poke-main">
-                <div id="poke-search">
-                    <form id="poke-form">
-                        <label for="name">ENTER POKEMON</label>
-                        <input type="text" name="name" placeholder="NAME...">
-                        <input type="submit" value="Search">
-                    </form>
-                    <div id="current-team-holder">
+            <div id="current-team-holder">
                         <!--This div contains the form for submitting a user's team, it will grab info from the sprites-->
                         <h2>Your Poke-Team</h2>
                         <div id="current-team">
@@ -29,16 +23,25 @@
                         </div>
                         <form id="current-team-form">
                             <input type="text" name="teamInputter" placeholder="Enter your Team's Name">
-                            <input type="submit" value="Store Team">
+                            <input type="submit" value="Display Team">
                         </form>
                     </div>
+            <img id="pokeball-img" src="https://www.pngkit.com/png/full/109-1094061_great-ball-png-svg-freeuse-pokemon-love-ball.png">
+        </header>
+        <main>
+            <div id="poke-main">
+                <div id="poke-search">
+                    <form id="poke-form">
+                        <input type="text" name="name" placeholder="SEARCH">
+                        <input type="submit" value="Search">
+                    </form>
                 </div>
                 <div id="poke-entry">
                     <div id="poke-name">
                         <h1 id="pokemon-name">Pokemon Name</h1>
+                        <h1 id="entry-id"></h1>
                     </div>
                     <div id="poke-info">
-                        <h1 id="entry-id"></h1>
                         <img id="main-poke-img">
                     </div>
                     <div id="poke-description">
@@ -77,13 +80,9 @@
                         </ul>
                     </div>
                 </div>
-                <div id="team-search">
-                    <h2 id="team-search-title">Access Your Team</h2>
-                    <form id="team-search-form"> 
-                        <input type="text" name="grab-team" placeholder="Enter Team Name">
-                        <input type="submit" value="Display Team">
-                    </form> 
-                </div>
+            </div>
+            <div id="widgets">
+            
             </div>
             <div id="retrieved-team-section">
                 <form id="rating-form">
@@ -100,16 +99,6 @@
                    <link rel="stylesheet" type="text/css" href="main.css">
                </form>
                <div id="team-holder-rater">
-                   <!--This div will contain the cards for the selected team including the sprites and names of the pokemon in the sprites-->
-                   
-                   <!--  
-                   <form id="rating-form">
-                       <label>Give This Team a Rating: </label>
-                       <input type="text" name="userReview" placeholder="/5">
-                       <input type="submit" value="Submit Rating">
-                       <link rel="stylesheet" type="text/css" href="main.css">
-                   </form>
-                    -->
                </div>
            </div>
         </main>
